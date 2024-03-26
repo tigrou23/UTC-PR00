@@ -1,16 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Page itinéraire</title>
+    <link rel="icon" href="./../assets/img/logo.ico" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../leaflet/leaflet.css">
+    <script src="../leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/itineraire.css">
 </head>
+
 <body>
-    <h1>Bonjour</h1>
-    <p>Je suis un paragraphe</p>
-</body>
+<header>
+    <div class="container">
+        <div class="containerItineraire">
+            <div class="containerMenu">
+                <h3 id="nom">$usename$</h3>
+                <h3 id="prof"><a href="">Profil</a></h3>
+                <h3 id="deconexion"><a id="deco" href="">Déconnexion</a></h3>
+            </div>
+        </div>
+        <img src="../assets/img/logo_utc.png" alt="logo">
+        <h1>Mon Itineraire</h1>
+    </div>
+</header>
+
+<img src="./../assets/img/loader.gif" class="loader" alt="" hidden>
+
+<div id="map"></div>
+
+<img id="back" src="./../assets/img/back_arrow_14429.png" alt="">
+
+<!-- MAIN -->
+<main>
+    <div id="itineraire">
+        <div class="container">
+            <h2>Choix des gares</h2>
+            <label for="departChoix">Choix de la gare d'arrivée :</label>
+            <input list="list-gare-arrivee" id="departChoix" name="departChoix">
+
+            <br>
+            <img id="swipe" src="./../assets/img/swipe.png" alt="">
+            <label for="arriveeChoix">Choix de la gare de départ :</label>
+            <input list="list-gare-arrivee" id="arriveeChoix" name="arriveeChoix">
+            <datalist id="list-gare-arrivee">
+                <option value="Home">Home</option>
+                <option value="Work">Work</option>
+            </datalist><br/>
+            <br><br><br><br>
+            <button id="valider">Valider</button>
+        </div>
+    </div>
+
+    <div id="chemin" hidden>
+        <div id="scrollable">
+        </div>
+        <br><br><br><br>
+        <button id="retour">Retour</button>
+    </div>
+</main>
+
+<!-- FOOTER -->
+<footer></footer>
 <script src="./js/itineraire.js"></script>
+</body>
 </html>

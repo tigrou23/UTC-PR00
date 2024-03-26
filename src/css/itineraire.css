@@ -1,5 +1,175 @@
+:root{
+    --black : #000000;
+    --white : #fffbfb;
+    --utc : #656263;
+    --footer : rgb(224, 224, 224);
+
+    --ff-avenir : 'Avenir', Arial, sans-serif;
+}
+h1,h2,h3, h3 a{
+    color : var(--utc);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color : var(--black);
+}
+
 h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size : 2em;
+}
+*{
+    margin : 0;
+    padding: 0;
+    font-family: var(--ff-avenir);
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    position : relative;
+    height: 100%;
+    background-blend-mode: saturation;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#map{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+#back{
+    width: 5%;
+    padding: 20px;
+    display: none;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    Margin: 0;
+    height: 12%;
+    width: 10%;
+}
+#itineraire {
+    max-width: 800px;
+    width: 60%;
+    background-color: var(--white);
+    border-radius: 25px;
+    padding: 50px;
+    padding-left: 100px;padding-right: 100px;
+    margin-top: 10px;margin-bottom: 10px;
+}
+#itineraire h2, #itineraire p{
     text-align: center;
+}
+input{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+}
+button, .submit{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: var(--utc);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit{
+    cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.rectangle{
+    width: 30px;
+    height: 320px;
+    background-color: black;
+    border-radius: 50px;
+}
+.rond1, .rond2{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--white);
+    margin-left: 5px;
+    top: 6px;
+}
+.rond2{
+    top: 274px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+}
+.one {
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
+.two{
+    grid-column: 2;
+    grid-row: 1;
+}
+.three{
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+}
+.four{
+    grid-column: 2;
+    grid-row: 3;
+    align-self: end;
+}
+.containerItineraire{
+    grid-column: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 2%;
+}
+#chemin{
+    background-color: var(--white);
+    border-radius: 25px;
+    padding: 47px;
+    margin-left: 50%;
+    min-width: 25%;
+}
+#scrollable{
+    height: 320px;
+    overflow: auto;
+}
+#swipe{
+    display: block;
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
 }

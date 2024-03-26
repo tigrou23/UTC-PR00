@@ -1,0 +1,40 @@
+:root{
+    --black : #000000;
+    --white : #fffbfb;
+    --utc : #656263;
+    --footer : rgb(224, 224, 224);
+    --ff-avenir : 'Avenir', Arial, sans-serif;
+}
+header{
+    height: 125px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+header>.container{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    max-width: 1000px;
+    width: 80%;
+}
+header .containerMenu{
+    grid-column: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 160%;
+}
+header>.container>img{
+    height: 65px;
+    grid-column: 1;
+    margin:auto;
+    margin-top: 0;
+}
+header>.container>h1{
+    grid-column: 3;
+    justify-self: center;
+    align-self: center;
+    padding-top: 5%;
+}
