@@ -22,6 +22,9 @@ $('#retour').click(function () {
     document.getElementById("scrollable").innerHTML = ''
 })
 
+/**
+ * swipe button, swap the values of the two inputs and rotate the button
+ */
 $('#swipe').click(function(){
     tmp = $('#departChoix').val()
     $('#departChoix').val($('#arriveeChoix').val())
@@ -30,7 +33,7 @@ $('#swipe').click(function(){
     $(this).css('transform', 'rotateY(' + rotation + 'deg)');
 })
 
-$(document).on("click", function (event) {
+$(document).click(function (event) {
     if ($(event.target).closest("#chemin, header, footer, #itineraire, #back").length === 0) {
         $('#map').css('z-index', '1');
         $('header, footer, #back').css('z-index', '2');
