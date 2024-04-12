@@ -1,3 +1,3 @@
 # Network Architecture V1
 _Designed by [Hugo](https://github.com/tigrou23)_
-![architecture_pr drawio](https://github.com/tigrou23/UTC-PR00/assets/54220880/2a9af4a4-0665-40d2-a2a0-e0918f65fe35)
+![architecture_pr drawio (2)](https://github.com/tigrou23/UTC-PR00/assets/54220880/5e88c15f-ea0a-4912-b245-2be37966c799)
