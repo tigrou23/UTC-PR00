@@ -1,0 +1,878 @@
+{
+  "routes": [
+    {
+      "legs": [
+        {
+          "steps": [
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Gare Montparnasse",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.84084,
+                        "longitude": 2.3194700999999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T13:41:40Z",
+                  "departureStop": {
+                    "name": "Plaisir Grignon",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83193,
+                        "longitude": 1.9435399999999998
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T12:56:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "15:41"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "14:56"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Gare Montparnasse",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Transilien",
+                      "uri": "https://www.transilien.com/fr"
+                    }
+                  ],
+                  "name": "N",
+                  "color": "#00b297",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Train"
+                    },
+                    "type": "HEAVY_RAIL",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                  }
+                },
+                "stopCount": 14
+              }
+            },
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Raspail",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83907,
+                        "longitude": 2.33041
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T13:50:00Z",
+                  "departureStop": {
+                    "name": "Montparnasse - Bienvenüe",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.842050000000008,
+                        "longitude": 2.3212699999999997
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T13:48:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "15:50"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "15:48"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Nation",
+                "headway": "180s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "RATP",
+                      "uri": "https://www.ratp.fr/"
+                    }
+                  ],
+                  "name": "6",
+                  "color": "#6eca97",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "name": {
+                      "text": "Métro"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/fr-paris-metro.png"
+                  }
+                },
+                "stopCount": 3
+              }
+            },
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Gare Montparnasse",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.84084,
+                        "longitude": 2.3194700999999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T14:02:30Z",
+                  "departureStop": {
+                    "name": "Plaisir Grignon",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83193,
+                        "longitude": 1.9435399999999998
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T13:35:30Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "16:02"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "15:35"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Gare Montparnasse",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Transilien",
+                      "uri": "https://www.transilien.com/fr"
+                    }
+                  ],
+                  "name": "N",
+                  "color": "#00b297",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Train"
+                    },
+                    "type": "HEAVY_RAIL",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                  }
+                },
+                "stopCount": 3
+              }
+            },
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Raspail",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83907,
+                        "longitude": 2.33041
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T14:10:00Z",
+                  "departureStop": {
+                    "name": "Montparnasse - Bienvenüe",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.842050000000008,
+                        "longitude": 2.3212699999999997
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T14:08:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "16:10"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "16:08"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Nation",
+                "headway": "180s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "RATP",
+                      "uri": "https://www.ratp.fr/"
+                    }
+                  ],
+                  "name": "6",
+                  "color": "#6eca97",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "name": {
+                      "text": "Métro"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/fr-paris-metro.png"
+                  }
+                },
+                "stopCount": 3
+              }
+            },
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Saint-Cyr",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.79877,
+                        "longitude": 2.07271
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T13:10:10Z",
+                  "departureStop": {
+                    "name": "Plaisir Grignon",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83193,
+                        "longitude": 1.9435399999999998
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T12:56:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "15:10"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "14:56"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Gare Montparnasse",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Transilien",
+                      "uri": "https://www.transilien.com/fr"
+                    }
+                  ],
+                  "name": "N",
+                  "color": "#00b297",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Train"
+                    },
+                    "type": "HEAVY_RAIL",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                  }
+                },
+                "stopCount": 5
+              }
+            },
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Saint-Michel Notre-Dame",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.85302,
+                        "longitude": 2.34496
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T13:56:40Z",
+                  "departureStop": {
+                    "name": "Saint-Cyr",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.79877,
+                        "longitude": 2.07271
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T13:14:30Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "15:56"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "15:14"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Saint-Martin D'étampes",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "RER",
+                      "uri": "https://www.ratp.fr/"
+                    }
+                  ],
+                  "name": "C",
+                  "color": "#f2c22e",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "name": {
+                      "text": "Train"
+                    },
+                    "type": "HEAVY_RAIL",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/fr-paris-rail.png"
+                  }
+                },
+                "stopCount": 14
+              }
+            },
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Raspail",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.839157,
+                        "longitude": 2.3304739999999997
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T14:11:00Z",
+                  "departureStop": {
+                    "name": "Saint-Michel Notre-Dame",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.85358,
+                        "longitude": 2.34396
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T14:03:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "16:11"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "16:03"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Bagneux - Lucie Aubrac",
+                "headway": "120s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "RATP",
+                      "uri": "https://www.ratp.fr/"
+                    }
+                  ],
+                  "name": "4",
+                  "color": "#a0006e",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Métro"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/fr-paris-metro.png"
+                  }
+                },
+                "stopCount": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Gare Montparnasse",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.84084,
+                        "longitude": 2.3194700999999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T14:41:40Z",
+                  "departureStop": {
+                    "name": "Plaisir Grignon",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83193,
+                        "longitude": 1.9435399999999998
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T13:56:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "16:41"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "15:56"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Gare Montparnasse",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Transilien",
+                      "uri": "https://www.transilien.com/fr"
+                    }
+                  ],
+                  "name": "N",
+                  "color": "#00b297",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Train"
+                    },
+                    "type": "HEAVY_RAIL",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                  }
+                },
+                "stopCount": 14
+              }
+            },
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Raspail",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83907,
+                        "longitude": 2.33041
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T14:49:00Z",
+                  "departureStop": {
+                    "name": "Montparnasse - Bienvenüe",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.842050000000008,
+                        "longitude": 2.3212699999999997
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T14:46:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "16:49"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "16:46"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Nation",
+                "headway": "180s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "RATP",
+                      "uri": "https://www.ratp.fr/"
+                    }
+                  ],
+                  "name": "6",
+                  "color": "#6eca97",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "name": {
+                      "text": "Métro"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/fr-paris-metro.png"
+                  }
+                },
+                "stopCount": 3
+              }
+            },
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Gare Montparnasse",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.84084,
+                        "longitude": 2.3194700999999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T15:02:30Z",
+                  "departureStop": {
+                    "name": "Plaisir Grignon",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83193,
+                        "longitude": 1.9435399999999998
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T14:36:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "17:02"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "16:36"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Gare Montparnasse",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Transilien",
+                      "uri": "https://www.transilien.com/fr"
+                    }
+                  ],
+                  "name": "N",
+                  "color": "#00b297",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Train"
+                    },
+                    "type": "HEAVY_RAIL",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                  }
+                },
+                "stopCount": 3
+              }
+            },
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Raspail",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83907,
+                        "longitude": 2.33041
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T15:09:00Z",
+                  "departureStop": {
+                    "name": "Montparnasse - Bienvenüe",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.842050000000008,
+                        "longitude": 2.3212699999999997
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T15:07:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "17:09"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "17:07"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Nation",
+                "headway": "120s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "RATP",
+                      "uri": "https://www.ratp.fr/"
+                    }
+                  ],
+                  "name": "6",
+                  "color": "#6eca97",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "name": {
+                      "text": "Métro"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/fr-paris-metro.png"
+                  }
+                },
+                "stopCount": 3
+              }
+            },
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "legs": [
+        {
+          "steps": [
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Gare Montparnasse",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.84084,
+                        "longitude": 2.3194700999999998
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T15:41:40Z",
+                  "departureStop": {
+                    "name": "Plaisir Grignon",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83193,
+                        "longitude": 1.9435399999999998
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T14:56:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "17:41"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "16:56"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Gare Montparnasse",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "Transilien",
+                      "uri": "https://www.transilien.com/fr"
+                    }
+                  ],
+                  "name": "N",
+                  "color": "#00b297",
+                  "textColor": "#ffffff",
+                  "vehicle": {
+                    "name": {
+                      "text": "Train"
+                    },
+                    "type": "HEAVY_RAIL",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                  }
+                },
+                "stopCount": 14
+              }
+            },
+            {},
+            {},
+            {
+              "transitDetails": {
+                "stopDetails": {
+                  "arrivalStop": {
+                    "name": "Raspail",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.83907,
+                        "longitude": 2.33041
+                      }
+                    }
+                  },
+                  "arrivalTime": "2024-04-15T15:50:00Z",
+                  "departureStop": {
+                    "name": "Montparnasse - Bienvenüe",
+                    "location": {
+                      "latLng": {
+                        "latitude": 48.842050000000008,
+                        "longitude": 2.3212699999999997
+                      }
+                    }
+                  },
+                  "departureTime": "2024-04-15T15:47:00Z"
+                },
+                "localizedValues": {
+                  "arrivalTime": {
+                    "time": {
+                      "text": "17:50"
+                    },
+                    "timeZone": "Europe/Paris"
+                  },
+                  "departureTime": {
+                    "time": {
+                      "text": "17:47"
+                    },
+                    "timeZone": "Europe/Paris"
+                  }
+                },
+                "headsign": "Nation",
+                "headway": "180s",
+                "transitLine": {
+                  "agencies": [
+                    {
+                      "name": "RATP",
+                      "uri": "https://www.ratp.fr/"
+                    }
+                  ],
+                  "name": "6",
+                  "color": "#6eca97",
+                  "textColor": "#000000",
+                  "vehicle": {
+                    "name": {
+                      "text": "Métro"
+                    },
+                    "type": "SUBWAY",
+                    "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "localIconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/fr-paris-metro.png"
+                  }
+                },
+                "stopCount": 3
+              }
+            },
+            {},
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}
