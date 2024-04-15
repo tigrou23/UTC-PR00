@@ -1,4 +1,10 @@
+window.onload = function(){
+    getStations()
+}
+
+const MAX_STATIONS = 2000
 const map = L.map('map').setView([48.86337661743164, 2.4466350078582764], 11);
+var stations = []
 var loader = document.querySelector('.loader')
 
 var arret = L.icon({
@@ -50,3 +56,47 @@ $('#valider').click(function () {
     $('#itineraire').hide()
     $('#chemin').show()
 })
+
+/**
+ * compare two stations (alphabetically by name)
+ * @param a station a
+ * @param b station b
+ * @returns {number}
+ */
+function compare(a, b){
+    if(a.fields.nom_gares < b.fields.nom_gares) return -1
+    else if(a.fields.nom_gares > b.fields.nom_gares) return 1
+    return 0
+}
+
+/**
+ * get all the stations to display them in the inputs to choose the departure and arrival station
+ */
+function getStations(){
+    loader.style.display = 'block'
+    $.ajax({
+        method: "GET",
+        url: "https://opendata.hauts-de-seine.fr/api/records/1.0/search/?dataset=gares-et-stations-du-reseau-ferre-dile-de-france-par-ligne&q=&rows=" + MAX_STATIONS + "&facet=id_ref_lda&facet=idrefliga",
+        async: true,
+        success: function(data) {
+            console.log(data)
+            for (const element of data.records) {
+                stations.push(element)
+            }
+            stations.sort(compare)
+            for (let i = 0; i < stations.length - 1; i++) {
+                if(compare(stations[i], stations[i+1]) == 0){
+                    delete stations[i]
+                }
+            }
+            stations.forEach((item, index) => {
+                $('#list-gare-depart').append("<option value='" + stations[index].fields.nom_gares + "'>")
+                $('#list-gare-arrivee').append("<option value='" + stations[index].fields.nom_gares + "'>")
+            })
+            loader.style.display = 'none'
+        },
+        error: function(){
+            alert('0 station found')
+        }
+    })
+}
