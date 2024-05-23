@@ -2,9 +2,11 @@ window.onload = function(){
     getStations()
 }
 
-const API_KEY_WEATHER = '' // TODO: add your OpenWeatherMap API key
 const MAX_STATIONS = 2000
 const map = L.map('map').setView([48.86337661743164, 2.4466350078582764], 11);
+const PROXY_IP = '82.165.187.129'
+const PROXY_PORT = '3000'
+
 var stations = []
 var polylines = []
 var markers = []
@@ -34,7 +36,7 @@ $('#retour').click(function () {
  * swipe button, swap the values of the two inputs and rotate the button
  */
 $('#swipe').click(function(){
-    tmp = $('#departChoix').val()
+    let tmp = $('#departChoix').val()
     $('#departChoix').val($('#arriveeChoix').val())
     $('#arriveeChoix').val(tmp)
     rotation += 180;
@@ -127,15 +129,10 @@ function searchJourney(start, end){
     };
 
     $.ajax({
-        url: 'https://routes.googleapis.com/directions/v2:computeRoutes',
+        url: 'http://' + PROXY_IP + ':' + PROXY_PORT + '/computeRoutes',
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(requestData),
-        headers: {
-            'Content-Type': 'application/json',
-            'X-Goog-Api-Key': '', // TODO: add your Google API key
-            'X-Goog-FieldMask': 'routes.legs.steps.transitDetails'
-        },
         success: function(data) {
             console.log(data);
 
@@ -169,6 +166,7 @@ function searchJourney(start, end){
             }
         },
         error: function(xhr, status, error) {
+            alert('Error while searching journey')
             console.error(status, error);
         }
     });
@@ -268,7 +266,7 @@ function meteo (marker){
     $.ajax({
         method: "GET",
         async: false,
-        url: "https://api.openweathermap.org/data/2.5/weather?lat=" + coord.lat + "&lon=" + coord.lng +"&lang=fr&appid=" + API_KEY_WEATHER,
+        url: 'http://' + PROXY_IP + ':' + PROXY_PORT + `/weather?lat=${coord.lat}&lon=${coord.lng}`,
         success: function(result){
             if(!marker.getPopup().getContent().includes("Température")){
                 JSON.stringify(result)
