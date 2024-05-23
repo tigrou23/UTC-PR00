@@ -129,7 +129,7 @@ function searchJourney(start, end){
     };
 
     $.ajax({
-        url: 'http://' + PROXY_IP + ':' + PROXY_PORT + '/computeRoutes',
+        url: 'https://' + PROXY_IP + ':' + PROXY_PORT + '/computeRoutes',
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(requestData),
@@ -266,7 +266,7 @@ function meteo (marker){
     $.ajax({
         method: "GET",
         async: false,
-        url: 'http://' + PROXY_IP + ':' + PROXY_PORT + `/weather?lat=${coord.lat}&lon=${coord.lng}`,
+        url: 'https://' + PROXY_IP + ':' + PROXY_PORT + `/weather?lat=${coord.lat}&lon=${coord.lng}`,
         success: function(result){
             if(!marker.getPopup().getContent().includes("Température")){
                 JSON.stringify(result)
