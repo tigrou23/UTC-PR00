@@ -4,29 +4,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Page itinéraire</title>
-    <link rel="icon" href="./../assets/img/logo.ico" />
+    <link rel="icon" href="assets/img/logo.ico" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/itineraire.css">
-    <script src="./js/itineraire.js" defer></script>
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/itineraire.css">
+    <script src="src/js/itineraire.js" defer></script>
 </head>
 
 <body>
 <header>
     <div class="container">
-        <img src="../assets/img/logo_utc.png" alt="logo">
+        <img src="assets/img/logo_utc.png" alt="logo">
         <h1>Mon Itineraire</h1>
     </div>
 </header>
 
-<img src="./../assets/img/loader.gif" class="loader" alt="" hidden>
+<img src="assets/img/loader.gif" class="loader" alt="" hidden>
 
 <div id="map"></div>
 
-<img id="back" src="./../assets/img/back_arrow_14429.png" alt="">
+<img id="back" src="assets/img/back_arrow_14429.png" alt="">
 
 <!-- MAIN -->
 <main>
@@ -37,7 +37,7 @@
             <input list="list-gare-arrivee" id="departChoix" name="departChoix">
 
             <br>
-            <img id="swipe" src="./../assets/img/swipe.png" alt="">
+            <img id="swipe" src="assets/img/swipe.png" alt="">
             <label for="arriveeChoix">Choix de la gare de départ :</label>
             <input list="list-gare-arrivee" id="arriveeChoix" name="arriveeChoix">
             <datalist id="list-gare-arrivee">
