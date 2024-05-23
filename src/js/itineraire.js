@@ -4,7 +4,7 @@ window.onload = function(){
 
 const MAX_STATIONS = 2000
 const map = L.map('map').setView([48.86337661743164, 2.4466350078582764], 11);
-const PROXY_IP = '82.165.187.129'
+const PROXY_IP = 'localhost'
 const PROXY_PORT = '3000'
 
 var stations = []
