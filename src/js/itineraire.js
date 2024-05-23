@@ -4,8 +4,6 @@ window.onload = function(){
 
 const MAX_STATIONS = 2000
 const map = L.map('map').setView([48.86337661743164, 2.4466350078582764], 11);
-const PROXY_IP = '82.165.187.129'
-const PROXY_PORT = '3000'
 
 var stations = []
 var polylines = []
@@ -129,7 +127,7 @@ function searchJourney(start, end){
     };
 
     $.ajax({
-        url: 'http://' + PROXY_IP + ':' + PROXY_PORT + '/computeRoutes',
+        url: 'https://hugopereira.fr/computeRoutes',
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(requestData),
@@ -266,7 +264,7 @@ function meteo (marker){
     $.ajax({
         method: "GET",
         async: false,
-        url: 'http://' + PROXY_IP + ':' + PROXY_PORT + `/weather?lat=${coord.lat}&lon=${coord.lng}`,
+        url: 'https://hugopereira.fr' + `/weather?lat=${coord.lat}&lon=${coord.lng}`,
         success: function(result){
             if(!marker.getPopup().getContent().includes("Température")){
                 JSON.stringify(result)
