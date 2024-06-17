@@ -2,7 +2,7 @@ window.onload = function(){
     getStations()
 }
 
-const SERVER = 'http://localhost'
+const SERVER = 'http://localhost:3000'
 const MAX_STATIONS = 2000
 const map = L.map('map').setView([48.86337661743164, 2.4466350078582764], 11);
 
