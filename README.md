@@ -8,8 +8,13 @@ ___
 </div>
 <br>
 
+___
 Lien vers le site :
 - https://pr00.hugopereira.fr
+
+Lien vers le site de statistiques :
+- https://pr00.stat.hugopereira.fr
+___
 
 ## <center>Table des matières</center>
 
