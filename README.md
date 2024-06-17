@@ -89,11 +89,11 @@ Cette API est sans doute la plus importante de notre projet. Elle permet de nous
 **Toutes nos fonctions JavaScript sont documentées ✅.**
 
 ### 1. Requêtes aux APIs <a class="anchor" id="section3_1"></a>
-**IMPORTANT** : Les requêtes ne sont pas réalisées par notre JavaScript. Elles sont faites par un PROXY qui a été développé dans un projet annexe : TODO: à mettre
+**IMPORTANT** : Les requêtes ne sont pas réalisées par notre JavaScript. Elles sont faites par un PROXY qui a été développé dans un projet annexe : [UTC-PR00-PROXY](https://github.com/tigrou23/UTC-PR00-PROXY).
 
 ### 2. Javascript/JQUERY <a class="anchor" id="section3_2"></a>
 Ce fichier JavaScript/JQUERY qui gèrent l'aspect algorithmique de notre projet :
-- [itineraire.js](./src/js/script.js)
+- [itineraire.js](./src/js/itineraire.js)
 
 Le fichier *itineraire.js* va  servir à gérer l'aspect événementiel. Par exemple à la validation :
 
@@ -115,7 +115,6 @@ Nous avons utilisé 2 fichiers CSS pour habiller notre site web :<br>
 <ul>
 	<li>header.css : permet d'habiller le header du site.
 	<li>itineraire.css : permet d'habiller la page itinéraire.
-	<li>style.css : rajouter un loader.
 </ul>
 Les fichiers CSS permettent de rendre notre site web responsive. Il y a une version ordinateur et une version mobile. La version mobile est essentielle pour la cohérence d'un projet abouti. En effet, notre site permet de trouver un itinéraire pour se déplacer. Cette consultation se fait principalement sur un téléphone, lorsque nous n'avons pas accès à notre ordinateur. Il était donc pour nous essentiel de développer cette version réduite pour les smartphones. Concernant le code CSS, nous avons utilisé une méthode de développement web : les variables. 
 Le fichier CSS est alors plus lisible ce qui permet de travailler à plusieurs très facilement.
