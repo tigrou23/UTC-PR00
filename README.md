@@ -128,6 +128,8 @@ Le fichier CSS est alors plus lisible ce qui permet de travailler à plusieurs t
 
 ## Architecure <a class="anchor" id="chapter4"></a>
 
+<img width="1004" alt="Capture d’écran 2024-06-27 à 18 17 22" src="https://github.com/tigrou23/UTC-PR00/assets/54220880/c9425ff6-80c1-4a3c-944a-808163705834">
+
 ### 1. Hébergement du projet <a class="anchor" id="section4_1"></a>
 <div align="justify">
 Le projet est hébergé en ligne et donc accessible avec un accès internet. 
